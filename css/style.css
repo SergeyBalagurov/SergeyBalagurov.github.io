@@ -1397,6 +1397,10 @@ body::after {
   .price__services {
     gap: 1.25rem;
   }
+    .price__certificate img {
+    -webkit-animation: flip-scale-2-hor-top 0s ease-in-out infinite;
+    animation: flip-scale-2-hor-top 0s ease-in-out infinite;
+  }
   .map__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1410,6 +1414,8 @@ body::after {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+                max-height: 80vh;
+            max-width: 90vw;
   }
   .map__block-address {
     -webkit-box-ordinal-group: 2;
